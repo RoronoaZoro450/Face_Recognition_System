@@ -1,0 +1,68 @@
+# =========================
+# Python cache & compiled
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual environment
+# =========================
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================
+# OS junk
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE / Editor files
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Build / packaging
+# =========================
+build/
+dist/
+*.spec
+
+# =========================
+# Data folders (IMPORTANT)
+# =========================
+Data/Registration/
+Data/embeddings/
+*.npy
+*.jpg
+*.png
+
+# =========================
+# Qt UI compiled files
+# =========================
+*.ui.autosave
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+
+# =========================
+# Virtual environment
+# =========================
+.env/
+venv/
