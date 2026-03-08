@@ -1,68 +1,62 @@
-# =========================
-# Python cache & compiled
-# =========================
+# Python cache
 __pycache__/
 *.py[cod]
 *$py.class
 
-# =========================
-# Virtual environment
-# =========================
+# Virtual environments
+.env/
 venv/
 env/
-.venv/
 ENV/
-env.bak/
-venv.bak/
 
-# =========================
-# OS junk
-# =========================
-.DS_Store
-Thumbs.db
-
-# =========================
-# IDE / Editor files
-# =========================
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# =========================
-# Logs
-# =========================
-*.log
-
-# =========================
-# Build / packaging
-# =========================
+# PyInstaller
 build/
 dist/
 *.spec
 
-# =========================
-# Data folders (IMPORTANT)
-# =========================
-Data/Registration/
-Data/embeddings/
-*.npy
-*.jpg
-*.png
+# Logs
+*.log
 
-# =========================
-# Qt UI compiled files
-# =========================
-*.ui.autosave
+# OS files
+.DS_Store
+Thumbs.db
 
-# =========================
+# IDE files
+.vscode/
+.idea/
+
+# SQLite databases
+*.db
+*.sqlite3
+
+# Runtime generated data
+FaceRecognitionData/
+Data/
+
+# Model downloads (InsightFace)
+.insightface/
+
 # Temporary files
-# =========================
 *.tmp
 *.temp
 
-# =========================
-# Virtual environment
-# =========================
-.env/
-venv/
+# Images captured during registration
+Registration/
+
+# CSV exports
+*.csv
+
+# Python packaging
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing
+.coverage
+htmlcov/
+
+# PySide UI compiled files
+*.ui.py
